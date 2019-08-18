@@ -20,7 +20,7 @@
   display: block;
 }
 .ulList li {
-  height: 4rem;
+  height: 3.73333333rem;
   background: #ffffff;
   box-shadow: 0rem 0rem 0.36rem 0rem rgba(41, 42, 50, 0.07);
   border-radius: 0.08rem;
@@ -113,6 +113,43 @@
   font-weight: 400;
   color: #fffefe;
 }
+.ulList li .swiper-wrapper .swiper-slide .rightOther {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.26666667rem 0.06666667rem 0;
+}
+.ulList li .swiper-wrapper .swiper-slide .rightOther .rightDiv {
+  width: 2.16rem;
+  height: 1.06666667rem;
+  border-radius: 0.08rem;
+  margin-bottom: 0.18666667rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.37333333rem;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #fffefe;
+  margin-right: 0.21333333rem;
+  flex-shrink: 0;
+}
+.ulList li .swiper-wrapper .swiper-slide .rightOther .rightDiv:nth-child(4n) {
+  margin-right: 0;
+}
+.ulList li .swiper-wrapper .swiper-slide .rightOther .rightDiv {
+  width: 2.16rem;
+  height: 1.06666667rem;
+  border-radius: 0.08rem;
+  margin-bottom: 0.18666667rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.37333333rem;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #fffefe;
+}
 .ulList li .right .rightDiv:nth-child(2) {
   margin-right: 0.21333333rem;
   margin-left: 0.21333333rem;
@@ -121,19 +158,19 @@
   margin-right: 0.21333333rem;
   margin-left: 0.21333333rem;
 }
-.ulList li .right .rightDiv1 {
+.ulList li .rightDiv1 {
   background: url("../images/card1.png") no-repeat center;
 }
-.ulList li .right .rightDiv2 {
+.ulList li .rightDiv2 {
   background: url("../images/card2.png") no-repeat center;
 }
-.ulList li .right .rightDiv3 {
+.ulList li .rightDiv3 {
   background: url("../images/card3.png") no-repeat center;
 }
-.ulList li .right .rightDiv4 {
+.ulList li .rightDiv4 {
   background: url("../images/card4.png") no-repeat center;
 }
-.ulList li .right .rightDiv5 {
+.ulList li .rightDiv5 {
   background: url("../images/card5.png") no-repeat center;
 }
 .swiper-container1.swiper-container .swiper-button-next,
@@ -273,22 +310,20 @@
 }
 .bottom {
   display: flex;
-  align-items: center;
+  align-items: initial;
   font-size: 0.32rem;
   font-family: MicrosoftYaHei;
   font-weight: 400;
   color: #b2b2b3;
-  min-height: 1.08rem;
-  padding: 0.2rem 0;
+  padding: 0.26666667rem 0;
   box-sizing: border-box;
+  line-height: 0.48rem;
 }
 .bottom img {
   width: 0.34666667rem;
   height: 0.32rem;
   margin-right: 0.08rem;
-}
-.bottom span {
-  line-height: 0.48rem;
+  margin-top: 0.13333333rem;
 }
 .left1 {
   background: url("../images/top1.png") no-repeat top;

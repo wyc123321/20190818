@@ -25,7 +25,7 @@
 }
 
 .ulList li {
-  height: 300/@rem;
+  height: 280/@rem;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0/@rem 0/@rem 27/@rem 0/@rem rgba(41, 42, 50, 0.07);
   border-radius: 6/@rem;
@@ -131,6 +131,43 @@
   font-weight: 400;
   color: rgba(255, 254, 254, 1);
 }
+.ulList li .swiper-wrapper .swiper-slide  .rightOther {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20/@rem 5/@rem 0;
+}
+.ulList li .swiper-wrapper .swiper-slide .rightOther .rightDiv {
+  width: 162/@rem;
+  height: 80/@rem;
+  border-radius: 6/@rem;
+  margin-bottom: 14/@rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28/@rem;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(255, 254, 254, 1);
+  margin-right: 16/@rem;
+  flex-shrink: 0;
+}
+.ulList li .swiper-wrapper .swiper-slide .rightOther .rightDiv:nth-child(4n){
+  margin-right:0;
+}
+.ulList li .swiper-wrapper .swiper-slide .rightOther .rightDiv {
+  width: 162/@rem;
+  height: 80/@rem;
+  border-radius: 6/@rem;
+  margin-bottom: 14/@rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28/@rem;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(255, 254, 254, 1);
+}
 
 .ulList li .right .rightDiv:nth-child(2) {
   margin-right: 16/@rem;
@@ -142,23 +179,23 @@
   margin-left: 16/@rem;
 }
 
-.ulList li .right .rightDiv1 {
+.ulList li  .rightDiv1 {
   background: url("../images/card1.png") no-repeat center;
 }
 
-.ulList li .right .rightDiv2 {
+.ulList li  .rightDiv2 {
   background: url("../images/card2.png") no-repeat center;
 }
 
-.ulList li .right .rightDiv3 {
+.ulList li  .rightDiv3 {
   background: url("../images/card3.png") no-repeat center;
 }
 
-.ulList li .right .rightDiv4 {
+.ulList li  .rightDiv4 {
   background: url("../images/card4.png") no-repeat center;
 }
 
-.ulList li .right .rightDiv5 {
+.ulList li  .rightDiv5 {
   background: url("../images/card5.png") no-repeat center;
 }
 
@@ -299,26 +336,26 @@
 }
 .bottom{
   display: flex;
-  align-items: center;
+ align-items: initial;
   font-size:24/@rem;
   font-family:MicrosoftYaHei;
   font-weight:400;
   color:rgba(178,178,179,1);
-  min-height: 81/@rem;
-  padding: 15/@rem 0;
+  padding: 20/@rem 0;
   box-sizing: border-box;
+  line-height: 36/@rem;
 }
 .bottom img{
   width: 26/@rem;
   height: 24/@rem;
   margin-right: 6/@rem;
+  margin-top: 10/@rem;
 }
 .bottom span{
   //max-width: 580/@rem;
   //overflow: hidden;
   //text-overflow:ellipsis;
   //white-space: nowrap;
-  line-height: 36/@rem;
 }
 .left1{
   background: url("../images/top1.png") no-repeat top;
