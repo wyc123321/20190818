@@ -237,6 +237,7 @@
 .detail li .top .right .div1 {
   display: flex;
   align-items: center;
+  margin: 0.21333333rem 0 0.32rem;
 }
 .detail li .top .right .div2 {
   display: flex;
@@ -246,7 +247,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 0.21333333rem;
+  margin-top: 0.42666667rem;
 }
 .detail li .top .right .div3 > div {
   display: flex;
