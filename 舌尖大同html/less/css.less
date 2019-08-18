@@ -1,0 +1,346 @@
+//1rem值伪多少位图像素
+@rem:750/16rem;
+.index{
+  max-width: 750/@rem;
+  margin: 0 auto;
+  position: relative;
+}
+.header {
+  height: 88/@rem;
+  background: rgba(255, 100, 109, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  width: 193/@rem;
+  height: 46/@rem;
+}
+
+.indexSwipe img {
+  width: 100%;
+  height: 288/@rem;
+  display: block;
+}
+
+.ulList li {
+  height: 300/@rem;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0/@rem 0/@rem 27/@rem 0/@rem rgba(41, 42, 50, 0.07);
+  border-radius: 6/@rem;
+  box-sizing: border-box;
+  margin-bottom: 20/@rem;
+  list-style: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 26/@rem 0;
+}
+
+.ulList li > p {
+  display: flex;
+  align-items: center;
+  font-size: 30/@rem;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin-left: 26/@rem;
+}
+
+.ulList li .divContainer {
+  display: flex;
+  align-items: inherit;
+  justify-content: space-between;
+  margin: 20/@rem 26/@rem 0;
+}
+
+.ulList li .divContainer1 {
+  display: flex;
+  align-items: inherit;
+  justify-content: space-between;
+  margin: 20/@rem 0 0;
+}
+
+.ulList li > p > img {
+  width: 6/@rem;
+  height: 30/@rem;
+  margin-right: 16/@rem;
+}
+
+.ulList li .left {
+  width: 162/@rem;
+  height: 174/@rem;
+  border-radius: 6/@rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 17/@rem;
+  flex-shrink: 0;
+}
+
+.ulList li .left img {
+  width: 90/@rem;
+  height: 90/@rem;
+}
+
+.ulList li .left1 {
+  background: rgba(255, 103, 102, 1);
+}
+
+.ulList li .left2 {
+  background: rgba(253, 181, 63, 1);
+}
+
+.ulList li .left3 {
+  background: rgba(42, 180, 255, 1);
+}
+
+.ulList li .left4 {
+  background: rgba(162, 115, 255, 1);
+}
+
+.ulList li .left5 {
+  background: rgba(55, 212, 167, 1);
+}
+
+.ulList li .right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.ulList li .right .rightDiv {
+  width: 162/@rem;
+  height: 80/@rem;
+  border-radius: 6/@rem;
+  margin-bottom: 14/@rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28/@rem;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(255, 254, 254, 1);
+}
+
+.ulList li .right .rightDiv:nth-child(2) {
+  margin-right: 16/@rem;
+  margin-left: 16/@rem;
+}
+
+.ulList li .right .rightDiv:nth-child(5) {
+  margin-right: 16/@rem;
+  margin-left: 16/@rem;
+}
+
+.ulList li .right .rightDiv1 {
+  background: url("../images/card1.png") no-repeat center;
+}
+
+.ulList li .right .rightDiv2 {
+  background: url("../images/card2.png") no-repeat center;
+}
+
+.ulList li .right .rightDiv3 {
+  background: url("../images/card3.png") no-repeat center;
+}
+
+.ulList li .right .rightDiv4 {
+  background: url("../images/card4.png") no-repeat center;
+}
+
+.ulList li .right .rightDiv5 {
+  background: url("../images/card5.png") no-repeat center;
+}
+
+.swiper-container1.swiper-container .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  width: 44/@rem;
+  height: 110/@rem;
+  background: url("../images/right.png") no-repeat center;
+  background-size: 100%;
+  right: 0/@rem;
+  margin-top: -55/@rem;
+}
+
+.swiper-container1.swiper-container .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  width: 44/@rem;
+  height: 110/@rem;
+  background: url("../images/left.png") no-repeat center;
+  background-size: 100%;
+  left: 0/@rem;
+  margin-top: -55/@rem;
+}
+
+.swiper-container1 .swiper-slide {
+  padding: 0 26/@rem;
+  box-sizing: border-box;
+}
+// 详情页
+.detailContainer{
+  max-width: 750/@rem;
+  margin: 0 auto;
+  position: relative;
+}
+.detail li{
+  height:344/@rem;
+  background:rgba(255,255,255,1);
+  box-shadow:0/@rem 0/@rem 27/@rem 0/@rem rgba(41,42,50,0.07);
+  border-radius:6/@rem;
+  padding: 30/@rem;
+  box-sizing: border-box;
+  margin-bottom: 16/@rem;
+  list-style: none;
+  cursor: pointer;
+}
+.detail li .top{
+  display: flex;
+  align-items: center;
+  padding-bottom: 18/@rem;
+  border-bottom: 1/@rem solid rgba(220,220,220,1);
+}
+.detail li .top .left{
+  width: 180/@rem;
+  height: 210/@rem;
+  margin-right: 28/@rem;
+  position: relative;
+}
+.detail li .top .left .imgUrl{
+  width: 180/@rem;
+  height: 210/@rem;
+}
+.detail li .top .right{
+  flex-grow: 1;
+}
+.detail li .top .right .p1{
+  font-size:32/@rem;
+  font-family:MicrosoftYaHei;
+  font-weight:400;
+  color:rgba(48,49,57,1);
+}
+.detail li .top .right .p2{
+  font-size:24/@rem;
+  font-family:MicrosoftYaHei;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  margin: 10/@rem 15/@rem;
+}
+.detail li .top .right .p3{
+  font-size:24/@rem;
+  font-family:MicrosoftYaHei;
+  font-weight:400;
+  color:rgba(178,178,179,1);
+}
+.detail li .top .right .p4{
+  padding: 0 8/@rem;
+  height:40/@rem;
+  background:rgba(255,100,109,1);
+  border-radius:5/@rem;
+  text-align: center;
+  line-height: 43/@rem;
+  margin-right: 14/@rem;
+  font-size:24/@rem;
+  font-family:MicrosoftYaHei;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
+.detail li .top .right .p5{
+  font-size:24/@rem;
+  font-family:MicrosoftYaHei;
+  font-weight:400;
+  color:rgba(170,170,170,1);
+}
+.detail li .top .right .p6{
+  font-size:24/@rem;
+  font-family:MicrosoftYaHei;
+  font-weight:400;
+  color:rgba(255,5,5,1);
+}
+.detail li .top .right .p7{
+  font-size:36/@rem;
+  font-family:MicrosoftYaHei-Bold;
+  font-weight:bold;
+  color:rgba(255,5,5,1);
+}
+.detail li .top .right .div1{
+  display: flex;
+  align-items: center;
+}
+.detail li .top .right .div2{
+  display: flex;
+  align-items: center;
+}
+.detail li .top .right .div3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10/@rem;
+}
+.detail li .top .right .div3>div{
+  display: flex;
+  align-items: center;
+}
+.detail li .top .right .div3 img{
+  width: 20/@rem;
+  height: 22/@rem;
+  margin-right: 4/@rem;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  font-size:24/@rem;
+  font-family:MicrosoftYaHei;
+  font-weight:400;
+  color:rgba(178,178,179,1);
+  height: 81/@rem;
+}
+.bottom img{
+  width: 26/@rem;
+  height: 24/@rem;
+  margin-right: 6/@rem;
+}
+.bottom span{
+  max-width: 580/@rem;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.left1{
+  background: url("../images/top1.png") no-repeat top;
+  z-index: 10;
+}
+.topImg{
+  position: absolute;
+  width: 135/@rem;
+  height: 37/@rem;
+  left: 22/@rem;
+  top: 0;
+}
+//星星样式
+.star{
+  display: flex;
+  align-items: center;
+}
+.staritem{
+  width: 23/@rem;
+  height: 22/@rem;
+  margin-right: 4/@rem;
+}
+/*全星星*/
+.onstar{
+  background: url('../images/star-light.png') no-repeat center;
+  background-size: 100%;
+  width: 23/@rem;
+  height: 22/@rem;
+}
+.halfstar{
+  background: url('../images/half.png') no-repeat center;
+  background-size: 100%;
+  width: 23/@rem;
+  height: 22/@rem;
+}
+.offstar{
+  background: url('../images/star-grey.png') no-repeat center;
+  background-size: 100%;
+  width: 23/@rem;
+  height: 22/@rem;
+}
