@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="css/swiper.css">
   <script src="js/jquery.js"></script>
   <script src="js/swiper.min.js"></script>
+  <script src="js/common.js"></script>
 </head>
 <body>
 <div class="index">
-  <img src="images/code.jpg" alt="" class="isPc codeImg">
   <header class="header">
     <img src="images/home-logo.png" alt="">
   </header>
@@ -37,6 +37,7 @@
       <div class="divContainer">
         <div class="left left1">
           <img src="images/icon1.png" alt="">
+          <p>小二快购</p>
         </div>
         <div class="right">
           <div class="rightDiv rightDiv1">
@@ -71,6 +72,7 @@
             <div class="divContainer divContainer1">
               <div class="left left2">
                 <img src="images/icon2.png" alt="">
+                <p>火锅</p>
               </div>
               <div class="right">
                 <div class="rightDiv rightDiv2">
@@ -83,6 +85,7 @@
             <div class="divContainer divContainer1">
               <div class="left left2">
                 <img src="images/icon2.png" alt="">
+                <p>火锅</p>
               </div>
               <div class="right">
                 <div class="rightDiv rightDiv2">
@@ -107,6 +110,7 @@
             <div class="divContainer divContainer1">
               <div class="left left3">
                 <img src="images/icon3.png" alt="">
+                <p>美容美体</p>
               </div>
               <div class="right">
                 <div class="rightDiv rightDiv3">
@@ -119,6 +123,7 @@
             <div class="divContainer divContainer1">
               <div class="left left3">
                 <img src="images/icon3.png" alt="">
+                <p>美容美体</p>
               </div>
               <div class="right">
                 <div class="rightDiv rightDiv3">
@@ -140,6 +145,7 @@
       <div class="divContainer">
         <div class="left left4">
           <img src="images/icon4.png" alt="">
+          <p>鲜花装点</p>
         </div>
         <div class="right">
           <div class="rightDiv rightDiv4">
@@ -156,6 +162,7 @@
       <div class="divContainer">
         <div class="left left5">
           <img src="images/icon5.png" alt="">
+          <p>家政服务</p>
         </div>
         <div class="right">
           <div class="rightDiv rightDiv5">
@@ -166,21 +173,13 @@
     </li>
   </ul>
 </div>
+<div class="content-sidebar">
+  <img src="images/weixincode.png"/>
+  <p>微信扫一扫</p>
+  <p>关注【51掌上宝】公众号</p>
+</div>
 </body>
 <script>
-  (function(doc, win) {
-    var docEl = doc.documentElement,
-      resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-      recalc = function() {
-        var clientWidth = docEl.clientWidth;
-        if (!clientWidth) return;
-        docEl.style.fontSize = window.screen.width / 16 + 'px';
-      };
-    if (!doc.addEventListener) return;
-    win.addEventListener(resizeEvt, recalc, false);
-    doc.addEventListener('DOMContentLoaded', recalc, false);
-  })(document, window);
-
   $(document).ready(function () {
     if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
       $('.isPc').css('display','none');
@@ -211,6 +210,16 @@
       },
       autoplay:true
     })
+    //        设备检测
+    if (detectmob()) {
+
+    } else {
+      var w = $(window).width();
+      $('.content-sidebar').css({
+        left: w / 2 +270,
+        display:'block'
+      })
+    }
   });
 </script>
 </html>
