@@ -217,7 +217,6 @@
 }
 .detail li .top {
   display: flex;
-  align-items: center;
   padding-bottom: 0.24rem;
   border-bottom: 0.01333333rem solid #dcdcdc;
 }
@@ -271,6 +270,7 @@
   font-family: MicrosoftYaHei;
   font-weight: 400;
   color: #aaaaaa;
+  line-height: 0.4rem;
 }
 .detail li .top .right .p6 {
   font-size: 0.32rem;
@@ -299,9 +299,17 @@
   justify-content: space-between;
   margin-top: 0.26666667rem;
 }
-.detail li .top .right .div3 > div {
+.detail li .top .right .div3 > div:last-child {
   display: flex;
   align-items: center;
+}
+.detail li .top .right .div3 > div:first-child {
+  display: flex;
+  align-items: center;
+}
+.detail li .top .right .div3 > div:last-child {
+  flex-shrink: 0;
+  margin-left: 0.06666667rem;
 }
 .detail li .top .right .div3 img {
   width: 0.26666667rem;

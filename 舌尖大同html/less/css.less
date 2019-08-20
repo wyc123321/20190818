@@ -243,7 +243,6 @@
 }
 .detail li .top{
   display: flex;
-  align-items: center;
   padding-bottom: 18/@rem;
   border-bottom: 1/@rem solid rgba(220,220,220,1);
 }
@@ -297,6 +296,7 @@
   font-family:MicrosoftYaHei;
   font-weight:400;
   color:rgba(170,170,170,1);
+  line-height: 30/@rem;
 }
 .detail li .top .right .p6{
   font-size:24/@rem;
@@ -325,9 +325,17 @@
   justify-content: space-between;
   margin-top: 20/@rem;
 }
-.detail li .top .right .div3>div{
+.detail li .top .right .div3>div:last-child{
   display: flex;
   align-items: center;
+}
+.detail li .top .right .div3>div:first-child{
+  display: flex;
+  align-items: center;
+}
+.detail li .top .right .div3>div:last-child{
+ flex-shrink: 0;
+  margin-left: 5/@rem;
 }
 .detail li .top .right .div3 img{
   width: 20/@rem;
